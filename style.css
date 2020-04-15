@@ -1,0 +1,63 @@
+#sh {
+    background-color: black;
+    height: 15%;
+    width: 100%;
+    color: red;
+    font-size: 35px;
+    text-align: center;
+}
+#sh>h1 {
+
+}
+.sq {
+    border: 1px solid black;
+}
+#s1 {
+    height: 125px;
+    width: 125px;
+    display: flex;
+    justify-content: center;
+    transform: rotate(45deg);
+}
+#s2 {
+    height: 105px;
+    width: 105px;
+    padding: 5px;
+    margin: auto;
+    animation: light  3s infinite;
+}
+#smc {
+    display: flex;
+    justify-content: center;
+    padding: 15%;
+}
+@keyframes light {
+    from {background: blue;}
+    to {background: red;}
+}
+#sh>h1:hover {
+    color: blue;
+}
+#menu {
+    padding-top: 5px;
+    padding-left: 5px;
+    width: 55px;
+    height: 45px;
+}
+.q {
+    border: 1px solid white;
+    width: 55px;
+    height: 6px;
+}
+div .q {
+    margin-top: 2px;
+}
+#menu:hover {
+    background: green;
+}
+#menu:active{
+    background: yellow;
+}
+#name_st {
+    margin-top: -15px;
+}
